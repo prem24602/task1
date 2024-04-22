@@ -37,7 +37,7 @@ btn1.addEventListener("click",function(event){
     <h4>${input2.value}</h4>
     <p>${area.value}</p>
     <button id="btn" onclick="delbutton(event)">Delete<button`
-    content.appendChild(div)
+    content.appendChild(div)  
 
     
 

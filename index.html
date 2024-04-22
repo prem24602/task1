@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyNote</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<body>
+    <div class="nav">
+        <h1>HappyNote</h1>
+    </div>
+
+    <div class="content">
+        <div class="container" id="container">
+            <h2>Rich dad Poor dad</h2>
+            <h4>Robert</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Aperiam ipsa unde distinctio provident quae nobis, fugit totam animi.
+            A veniam, soluta natus illo tenetur laboriosam reiciendis molestiae nulla aperiam in.
+            </p>
+            <button id="btn" onclick="delbutton(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popup" id="pop"></div>
+
+    <div class="pop-msg" id="popbox">
+        <h3>Add Book</h3>
+        <form>
+            <input type="text" placeholder="Book Title" id="input1"><br/>
+            <input type="text" placeholder="Book Author" id="input2"><br/>
+            <textarea id="pop-area" placeholder="Short Description"></textarea><br/>
+            <button id="btn-1">ADD</button>
+            <button id="btn-2">CANCEL</button>
+
+        </form>
+    </div>
+
+
+    <button id="pop-btn">+</button>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
